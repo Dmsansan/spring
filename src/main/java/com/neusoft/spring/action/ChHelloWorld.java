@@ -1,6 +1,6 @@
 package com.neusoft.spring.action;
 
-public class HelloWorld {
+public class ChHelloWorld {
     public String msg = null;
 
     public void setMsg(String msg){
@@ -8,6 +8,6 @@ public class HelloWorld {
     }
 
     public String getMsg(){
-        return msg;
+        return "你好："+msg;
     }
 }
