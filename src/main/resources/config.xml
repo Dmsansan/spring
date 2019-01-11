@@ -15,4 +15,11 @@
             <value>HelloWorld</value>
         </constructor-arg>
     </bean>
+
+    <bean id="OutputHelper" class="com.neusoft.spring.songouhe.OutputHelper">
+        <property name="outputGenerator" ref="JsonOutputGenerator" />
+    </bean>
+
+    <bean id="CsvOutputGenerator" class="com.neusoft.spring.songouhe.CsvOutputGenerator" />
+    <bean id="JsonOutputGenerator" class="com.neusoft.spring.songouhe.JsonOutputGenerator" />
 </beans>

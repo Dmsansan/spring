@@ -4,9 +4,22 @@
        xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/util"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
-    <bean id="HellWorld" class="com.neusoft.spring.action.EnHelloWorld">
-        <property name="msg">
-            <value>World</value>
-        </property>
+    <!--<bean id="HellWorld" class="com.neusoft.spring.action.EnHelloWorld">-->
+        <!--<property name="msg">-->
+            <!--<value>World</value>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <bean id="HelloWorld" class="com.neusoft.spring.action.HelloWorld">
+        <constructor-arg index="0">
+            <value>HelloWorld</value>
+        </constructor-arg>
     </bean>
+
+    <bean id="OutputHelper" class="com.neusoft.spring.songouhe.OutputHelper">
+        <property name="outputGenerator" ref="JsonOutputGenerator" />
+    </bean>
+
+    <bean id="CsvOutputGenerator" class="com.neusoft.spring.songouhe.CsvOutputGenerator" />
+    <bean id="JsonOutputGenerator" class="com.neusoft.spring.songouhe.JsonOutputGenerator" />
 </beans>
