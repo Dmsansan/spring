@@ -1,5 +1,7 @@
 package com.neusoft.spring.jdbc;
 
+import org.springframework.jdbc.core.JdbcTemplate;
+
 import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -18,27 +20,31 @@ public class JdbcCusTomerDao implements CusTomerDao {
 
         String sql = "INSERT INTO CUSTOMER " +
                 "(CUST_ID, NAME, AGE) VALUES (?, ?, ?)";
-        Connection conn = null;
+        JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 
-        try {
-            conn = dataSource.getConnection();
-            PreparedStatement ps = conn.prepareStatement(sql);
-            ps.setInt(1, customer.getCust_Id());
-            ps.setString(2, customer.getName());
-            ps.setInt(3, customer.getAge());
-            ps.executeUpdate();
-            ps.close();
-
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-
-        } finally {
-            if (conn != null) {
-                try {
-                    conn.close();
-                } catch (SQLException e) {}
-            }
-        }
+        jdbcTemplate.update(sql, new Object[] {customer.getCust_Id(),customer.getName()
+                ,customer.getAge()});
+//        Connection conn = null;
+//
+//        try {
+//            conn = dataSource.getConnection();
+//            PreparedStatement ps = conn.prepareStatement(sql);
+//            ps.setInt(1, customer.getCust_Id());
+//            ps.setString(2, customer.getName());
+//            ps.setInt(3, customer.getAge());
+//            ps.executeUpdate();
+//            ps.close();
+//
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//
+//        } finally {
+//            if (conn != null) {
+//                try {
+//                    conn.close();
+//                } catch (SQLException e) {}
+//            }
+//        }
     }
 
     public Customer findByCustomerId(int custId){
