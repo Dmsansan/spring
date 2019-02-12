@@ -122,3 +122,605 @@
 2019-02-12 09:41:06  [ main:1418 ] - [ DEBUG ]  SQL update affected 1 rows
 2019-02-12 09:41:06  [ main:1440 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
 2019-02-12 09:41:06  [ main:1442 ] - [ DEBUG ]  Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/spring]
+2019-02-12 09:45:43  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 09:45:43 CST 2019]; root of context hierarchy
+2019-02-12 09:45:43  [ main:30 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:43  [ main:33 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:43  [ main:33 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:43  [ main:33 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:43  [ main:34 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:43  [ main:34 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:43  [ main:34 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:43  [ main:38 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:43  [ main:39 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:43  [ main:65 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-02-12 09:45:43  [ main:91 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 09:45:43  [ main:131 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2019-02-12 09:45:43  [ main:134 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+2019-02-12 09:45:43  [ main:136 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 09:45:43  [ main:196 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 09:45:43  [ main:222 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-customer.xml]
+2019-02-12 09:45:43  [ main:227 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 09:45:43  [ main:236 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 09:45:43  [ main:302 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 09:45:43  [ main:325 ] - [ DEBUG ]  Imported 2 bean definitions from relative location [spring-customer.xml]
+2019-02-12 09:45:43  [ main:332 ] - [ DEBUG ]  Loaded 2 bean definitions from location pattern [applicationContext.xml]
+2019-02-12 09:45:43  [ main:333 ] - [ INFO ]  Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ff8b8f
+2019-02-12 09:45:43  [ main:334 ] - [ DEBUG ]  2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 09:45:43 CST 2019]; root of context hierarchy
+2019-02-12 09:45:43  [ main:354 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@546a03af]
+2019-02-12 09:45:43  [ main:356 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1888ff2c]
+2019-02-12 09:45:43  [ main:358 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ff8b8f: defining beans [customerDAO,dataSource]; root of factory hierarchy
+2019-02-12 09:45:43  [ main:362 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerDAO'
+2019-02-12 09:45:43  [ main:363 ] - [ DEBUG ]  Creating instance of bean 'customerDAO'
+2019-02-12 09:45:43  [ main:387 ] - [ DEBUG ]  Eagerly caching bean 'customerDAO' to allow for resolving potential circular references
+2019-02-12 09:45:43  [ main:389 ] - [ DEBUG ]  Creating shared instance of singleton bean 'dataSource'
+2019-02-12 09:45:43  [ main:390 ] - [ DEBUG ]  Creating instance of bean 'dataSource'
+2019-02-12 09:45:43  [ main:391 ] - [ DEBUG ]  Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2019-02-12 09:45:44  [ main:415 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-02-12 09:45:44  [ main:416 ] - [ DEBUG ]  Finished creating instance of bean 'dataSource'
+2019-02-12 09:45:44  [ main:418 ] - [ DEBUG ]  Finished creating instance of bean 'customerDAO'
+2019-02-12 09:45:44  [ main:419 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2019-02-12 09:45:44  [ main:419 ] - [ DEBUG ]  Returning cached instance of singleton bean 'customerDAO'
+2019-02-12 09:45:44  [ main:451 ] - [ DEBUG ]  Executing prepared SQL update
+2019-02-12 09:45:44  [ main:453 ] - [ DEBUG ]  Executing prepared SQL statement [INSERT INTO CUSTOMER (CUST_ID, NAME, AGE) VALUES (?, ?, ?)]
+2019-02-12 09:45:44  [ main:467 ] - [ DEBUG ]  Fetching JDBC Connection from DataSource
+2019-02-12 09:45:44  [ main:468 ] - [ DEBUG ]  Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/spring]
+2019-02-12 09:45:44  [ main:1024 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
+2019-02-12 09:45:44  [ main:1083 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:44  [ main:1083 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:44  [ main:1083 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:44  [ main:1084 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:44  [ main:1084 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:44  [ main:1084 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:44  [ main:1085 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:44  [ main:1085 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:44  [ main:1085 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:44  [ main:1086 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-02-12 09:45:44  [ main:1088 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 09:45:44  [ main:1111 ] - [ DEBUG ]  Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
+2019-02-12 09:45:44  [ main:1126 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 09:45:44  [ main:1139 ] - [ DEBUG ]  Creating shared instance of singleton bean 'DB2'
+2019-02-12 09:45:44  [ main:1140 ] - [ DEBUG ]  Creating instance of bean 'DB2'
+2019-02-12 09:45:44  [ main:1140 ] - [ DEBUG ]  Eagerly caching bean 'DB2' to allow for resolving potential circular references
+2019-02-12 09:45:44  [ main:1155 ] - [ DEBUG ]  Finished creating instance of bean 'DB2'
+2019-02-12 09:45:44  [ main:1155 ] - [ DEBUG ]  Creating shared instance of singleton bean 'Derby'
+2019-02-12 09:45:44  [ main:1155 ] - [ DEBUG ]  Creating instance of bean 'Derby'
+2019-02-12 09:45:44  [ main:1156 ] - [ DEBUG ]  Eagerly caching bean 'Derby' to allow for resolving potential circular references
+2019-02-12 09:45:44  [ main:1156 ] - [ DEBUG ]  Finished creating instance of bean 'Derby'
+2019-02-12 09:45:44  [ main:1157 ] - [ DEBUG ]  Creating shared instance of singleton bean 'H2'
+2019-02-12 09:45:44  [ main:1157 ] - [ DEBUG ]  Creating instance of bean 'H2'
+2019-02-12 09:45:44  [ main:1157 ] - [ DEBUG ]  Eagerly caching bean 'H2' to allow for resolving potential circular references
+2019-02-12 09:45:44  [ main:1158 ] - [ DEBUG ]  Finished creating instance of bean 'H2'
+2019-02-12 09:45:44  [ main:1158 ] - [ DEBUG ]  Creating shared instance of singleton bean 'HSQL'
+2019-02-12 09:45:44  [ main:1158 ] - [ DEBUG ]  Creating instance of bean 'HSQL'
+2019-02-12 09:45:44  [ main:1159 ] - [ DEBUG ]  Eagerly caching bean 'HSQL' to allow for resolving potential circular references
+2019-02-12 09:45:44  [ main:1159 ] - [ DEBUG ]  Finished creating instance of bean 'HSQL'
+2019-02-12 09:45:44  [ main:1159 ] - [ DEBUG ]  Creating shared instance of singleton bean 'Informix'
+2019-02-12 09:45:44  [ main:1159 ] - [ DEBUG ]  Creating instance of bean 'Informix'
+2019-02-12 09:45:44  [ main:1160 ] - [ DEBUG ]  Eagerly caching bean 'Informix' to allow for resolving potential circular references
+2019-02-12 09:45:44  [ main:1160 ] - [ DEBUG ]  Finished creating instance of bean 'Informix'
+2019-02-12 09:45:44  [ main:1160 ] - [ DEBUG ]  Creating shared instance of singleton bean 'MS-SQL'
+2019-02-12 09:45:44  [ main:1161 ] - [ DEBUG ]  Creating instance of bean 'MS-SQL'
+2019-02-12 09:45:44  [ main:1161 ] - [ DEBUG ]  Eagerly caching bean 'MS-SQL' to allow for resolving potential circular references
+2019-02-12 09:45:44  [ main:1161 ] - [ DEBUG ]  Finished creating instance of bean 'MS-SQL'
+2019-02-12 09:45:44  [ main:1162 ] - [ DEBUG ]  Creating shared instance of singleton bean 'MySQL'
+2019-02-12 09:45:44  [ main:1162 ] - [ DEBUG ]  Creating instance of bean 'MySQL'
+2019-02-12 09:45:44  [ main:1162 ] - [ DEBUG ]  Eagerly caching bean 'MySQL' to allow for resolving potential circular references
+2019-02-12 09:45:44  [ main:1163 ] - [ DEBUG ]  Finished creating instance of bean 'MySQL'
+2019-02-12 09:45:44  [ main:1163 ] - [ DEBUG ]  Creating shared instance of singleton bean 'Oracle'
+2019-02-12 09:45:44  [ main:1163 ] - [ DEBUG ]  Creating instance of bean 'Oracle'
+2019-02-12 09:45:44  [ main:1166 ] - [ DEBUG ]  Eagerly caching bean 'Oracle' to allow for resolving potential circular references
+2019-02-12 09:45:44  [ main:1167 ] - [ DEBUG ]  Finished creating instance of bean 'Oracle'
+2019-02-12 09:45:44  [ main:1167 ] - [ DEBUG ]  Creating shared instance of singleton bean 'PostgreSQL'
+2019-02-12 09:45:44  [ main:1167 ] - [ DEBUG ]  Creating instance of bean 'PostgreSQL'
+2019-02-12 09:45:44  [ main:1168 ] - [ DEBUG ]  Eagerly caching bean 'PostgreSQL' to allow for resolving potential circular references
+2019-02-12 09:45:44  [ main:1168 ] - [ DEBUG ]  Finished creating instance of bean 'PostgreSQL'
+2019-02-12 09:45:44  [ main:1169 ] - [ DEBUG ]  Creating shared instance of singleton bean 'Sybase'
+2019-02-12 09:45:44  [ main:1169 ] - [ DEBUG ]  Creating instance of bean 'Sybase'
+2019-02-12 09:45:44  [ main:1169 ] - [ DEBUG ]  Eagerly caching bean 'Sybase' to allow for resolving potential circular references
+2019-02-12 09:45:44  [ main:1170 ] - [ DEBUG ]  Finished creating instance of bean 'Sybase'
+2019-02-12 09:45:44  [ main:1170 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2019-02-12 09:45:44  [ main:1170 ] - [ DEBUG ]  Looking up default SQLErrorCodes for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@49fc609f]
+2019-02-12 09:45:44  [ main:1171 ] - [ DEBUG ]  Fetching JDBC Connection from DataSource
+2019-02-12 09:45:44  [ main:1171 ] - [ DEBUG ]  Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/spring]
+2019-02-12 09:45:44  [ main:1176 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
+2019-02-12 09:45:44  [ main:1177 ] - [ DEBUG ]  Database product name cached for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@49fc609f]: name is 'MySQL'
+2019-02-12 09:45:44  [ main:1177 ] - [ DEBUG ]  SQL error codes for 'MySQL' found
+2019-02-12 09:45:44  [ main:1177 ] - [ DEBUG ]  Translating SQLException with SQL state '23000', error code '1062', message [Duplicate entry '1' for key 'PRIMARY']; SQL was [INSERT INTO CUSTOMER (CUST_ID, NAME, AGE) VALUES (?, ?, ?)] for task [PreparedStatementCallback]
+2019-02-12 09:45:48  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 09:45:48 CST 2019]; root of context hierarchy
+2019-02-12 09:45:48  [ main:29 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:48  [ main:32 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:48  [ main:33 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:48  [ main:33 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:48  [ main:33 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:48  [ main:33 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:48  [ main:33 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:48  [ main:37 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:48  [ main:39 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:48  [ main:72 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-02-12 09:45:48  [ main:97 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 09:45:48  [ main:139 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2019-02-12 09:45:48  [ main:142 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+2019-02-12 09:45:48  [ main:144 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 09:45:48  [ main:205 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 09:45:48  [ main:243 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-customer.xml]
+2019-02-12 09:45:48  [ main:245 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 09:45:48  [ main:250 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 09:45:48  [ main:286 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 09:45:48  [ main:302 ] - [ DEBUG ]  Imported 2 bean definitions from relative location [spring-customer.xml]
+2019-02-12 09:45:48  [ main:303 ] - [ DEBUG ]  Loaded 2 bean definitions from location pattern [applicationContext.xml]
+2019-02-12 09:45:48  [ main:304 ] - [ INFO ]  Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ff8b8f
+2019-02-12 09:45:48  [ main:304 ] - [ DEBUG ]  2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 09:45:48 CST 2019]; root of context hierarchy
+2019-02-12 09:45:48  [ main:322 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@546a03af]
+2019-02-12 09:45:48  [ main:325 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1888ff2c]
+2019-02-12 09:45:48  [ main:326 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ff8b8f: defining beans [customerDAO,dataSource]; root of factory hierarchy
+2019-02-12 09:45:48  [ main:327 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerDAO'
+2019-02-12 09:45:48  [ main:329 ] - [ DEBUG ]  Creating instance of bean 'customerDAO'
+2019-02-12 09:45:48  [ main:346 ] - [ DEBUG ]  Eagerly caching bean 'customerDAO' to allow for resolving potential circular references
+2019-02-12 09:45:48  [ main:348 ] - [ DEBUG ]  Creating shared instance of singleton bean 'dataSource'
+2019-02-12 09:45:48  [ main:349 ] - [ DEBUG ]  Creating instance of bean 'dataSource'
+2019-02-12 09:45:48  [ main:350 ] - [ DEBUG ]  Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2019-02-12 09:45:48  [ main:369 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-02-12 09:45:48  [ main:369 ] - [ DEBUG ]  Finished creating instance of bean 'dataSource'
+2019-02-12 09:45:48  [ main:373 ] - [ DEBUG ]  Finished creating instance of bean 'customerDAO'
+2019-02-12 09:45:48  [ main:374 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2019-02-12 09:45:48  [ main:374 ] - [ DEBUG ]  Returning cached instance of singleton bean 'customerDAO'
+2019-02-12 09:45:48  [ main:387 ] - [ DEBUG ]  Executing prepared SQL update
+2019-02-12 09:45:48  [ main:388 ] - [ DEBUG ]  Executing prepared SQL statement [INSERT INTO CUSTOMER (CUST_ID, NAME, AGE) VALUES (?, ?, ?)]
+2019-02-12 09:45:48  [ main:396 ] - [ DEBUG ]  Fetching JDBC Connection from DataSource
+2019-02-12 09:45:48  [ main:397 ] - [ DEBUG ]  Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/spring]
+2019-02-12 09:45:49  [ main:773 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
+2019-02-12 09:45:49  [ main:779 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:49  [ main:779 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:49  [ main:779 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:49  [ main:779 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:49  [ main:780 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:49  [ main:780 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:49  [ main:780 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:49  [ main:780 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:49  [ main:780 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:49  [ main:781 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-02-12 09:45:49  [ main:782 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 09:45:49  [ main:786 ] - [ DEBUG ]  Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
+2019-02-12 09:45:49  [ main:797 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 09:45:49  [ main:805 ] - [ DEBUG ]  Creating shared instance of singleton bean 'DB2'
+2019-02-12 09:45:49  [ main:805 ] - [ DEBUG ]  Creating instance of bean 'DB2'
+2019-02-12 09:45:49  [ main:805 ] - [ DEBUG ]  Eagerly caching bean 'DB2' to allow for resolving potential circular references
+2019-02-12 09:45:49  [ main:816 ] - [ DEBUG ]  Finished creating instance of bean 'DB2'
+2019-02-12 09:45:49  [ main:817 ] - [ DEBUG ]  Creating shared instance of singleton bean 'Derby'
+2019-02-12 09:45:49  [ main:817 ] - [ DEBUG ]  Creating instance of bean 'Derby'
+2019-02-12 09:45:49  [ main:817 ] - [ DEBUG ]  Eagerly caching bean 'Derby' to allow for resolving potential circular references
+2019-02-12 09:45:49  [ main:818 ] - [ DEBUG ]  Finished creating instance of bean 'Derby'
+2019-02-12 09:45:49  [ main:818 ] - [ DEBUG ]  Creating shared instance of singleton bean 'H2'
+2019-02-12 09:45:49  [ main:819 ] - [ DEBUG ]  Creating instance of bean 'H2'
+2019-02-12 09:45:49  [ main:819 ] - [ DEBUG ]  Eagerly caching bean 'H2' to allow for resolving potential circular references
+2019-02-12 09:45:49  [ main:819 ] - [ DEBUG ]  Finished creating instance of bean 'H2'
+2019-02-12 09:45:49  [ main:820 ] - [ DEBUG ]  Creating shared instance of singleton bean 'HSQL'
+2019-02-12 09:45:49  [ main:820 ] - [ DEBUG ]  Creating instance of bean 'HSQL'
+2019-02-12 09:45:49  [ main:820 ] - [ DEBUG ]  Eagerly caching bean 'HSQL' to allow for resolving potential circular references
+2019-02-12 09:45:49  [ main:821 ] - [ DEBUG ]  Finished creating instance of bean 'HSQL'
+2019-02-12 09:45:49  [ main:821 ] - [ DEBUG ]  Creating shared instance of singleton bean 'Informix'
+2019-02-12 09:45:49  [ main:821 ] - [ DEBUG ]  Creating instance of bean 'Informix'
+2019-02-12 09:45:49  [ main:821 ] - [ DEBUG ]  Eagerly caching bean 'Informix' to allow for resolving potential circular references
+2019-02-12 09:45:49  [ main:822 ] - [ DEBUG ]  Finished creating instance of bean 'Informix'
+2019-02-12 09:45:49  [ main:822 ] - [ DEBUG ]  Creating shared instance of singleton bean 'MS-SQL'
+2019-02-12 09:45:49  [ main:823 ] - [ DEBUG ]  Creating instance of bean 'MS-SQL'
+2019-02-12 09:45:49  [ main:823 ] - [ DEBUG ]  Eagerly caching bean 'MS-SQL' to allow for resolving potential circular references
+2019-02-12 09:45:49  [ main:823 ] - [ DEBUG ]  Finished creating instance of bean 'MS-SQL'
+2019-02-12 09:45:49  [ main:823 ] - [ DEBUG ]  Creating shared instance of singleton bean 'MySQL'
+2019-02-12 09:45:49  [ main:824 ] - [ DEBUG ]  Creating instance of bean 'MySQL'
+2019-02-12 09:45:49  [ main:824 ] - [ DEBUG ]  Eagerly caching bean 'MySQL' to allow for resolving potential circular references
+2019-02-12 09:45:49  [ main:825 ] - [ DEBUG ]  Finished creating instance of bean 'MySQL'
+2019-02-12 09:45:49  [ main:825 ] - [ DEBUG ]  Creating shared instance of singleton bean 'Oracle'
+2019-02-12 09:45:49  [ main:825 ] - [ DEBUG ]  Creating instance of bean 'Oracle'
+2019-02-12 09:45:49  [ main:826 ] - [ DEBUG ]  Eagerly caching bean 'Oracle' to allow for resolving potential circular references
+2019-02-12 09:45:49  [ main:827 ] - [ DEBUG ]  Finished creating instance of bean 'Oracle'
+2019-02-12 09:45:49  [ main:828 ] - [ DEBUG ]  Creating shared instance of singleton bean 'PostgreSQL'
+2019-02-12 09:45:49  [ main:829 ] - [ DEBUG ]  Creating instance of bean 'PostgreSQL'
+2019-02-12 09:45:49  [ main:829 ] - [ DEBUG ]  Eagerly caching bean 'PostgreSQL' to allow for resolving potential circular references
+2019-02-12 09:45:49  [ main:829 ] - [ DEBUG ]  Finished creating instance of bean 'PostgreSQL'
+2019-02-12 09:45:49  [ main:830 ] - [ DEBUG ]  Creating shared instance of singleton bean 'Sybase'
+2019-02-12 09:45:49  [ main:830 ] - [ DEBUG ]  Creating instance of bean 'Sybase'
+2019-02-12 09:45:49  [ main:830 ] - [ DEBUG ]  Eagerly caching bean 'Sybase' to allow for resolving potential circular references
+2019-02-12 09:45:49  [ main:831 ] - [ DEBUG ]  Finished creating instance of bean 'Sybase'
+2019-02-12 09:45:49  [ main:831 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2019-02-12 09:45:49  [ main:832 ] - [ DEBUG ]  Looking up default SQLErrorCodes for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@49fc609f]
+2019-02-12 09:45:49  [ main:833 ] - [ DEBUG ]  Fetching JDBC Connection from DataSource
+2019-02-12 09:45:49  [ main:833 ] - [ DEBUG ]  Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/spring]
+2019-02-12 09:45:49  [ main:838 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
+2019-02-12 09:45:49  [ main:839 ] - [ DEBUG ]  Database product name cached for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@49fc609f]: name is 'MySQL'
+2019-02-12 09:45:49  [ main:839 ] - [ DEBUG ]  SQL error codes for 'MySQL' found
+2019-02-12 09:45:49  [ main:839 ] - [ DEBUG ]  Translating SQLException with SQL state '23000', error code '1062', message [Duplicate entry '1' for key 'PRIMARY']; SQL was [INSERT INTO CUSTOMER (CUST_ID, NAME, AGE) VALUES (?, ?, ?)] for task [PreparedStatementCallback]
+2019-02-12 09:45:55  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 09:45:55 CST 2019]; root of context hierarchy
+2019-02-12 09:45:55  [ main:38 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:55  [ main:39 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:55  [ main:40 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:55  [ main:40 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:55  [ main:40 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:55  [ main:41 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:55  [ main:41 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:55  [ main:56 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:55  [ main:57 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:55  [ main:92 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-02-12 09:45:55  [ main:115 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 09:45:55  [ main:159 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2019-02-12 09:45:55  [ main:162 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+2019-02-12 09:45:55  [ main:164 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 09:45:55  [ main:219 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 09:45:55  [ main:238 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-customer.xml]
+2019-02-12 09:45:55  [ main:239 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 09:45:55  [ main:241 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 09:45:55  [ main:277 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 09:45:55  [ main:292 ] - [ DEBUG ]  Imported 2 bean definitions from relative location [spring-customer.xml]
+2019-02-12 09:45:55  [ main:294 ] - [ DEBUG ]  Loaded 2 bean definitions from location pattern [applicationContext.xml]
+2019-02-12 09:45:55  [ main:294 ] - [ INFO ]  Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ff8b8f
+2019-02-12 09:45:55  [ main:294 ] - [ DEBUG ]  2 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 09:45:55 CST 2019]; root of context hierarchy
+2019-02-12 09:45:55  [ main:312 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@546a03af]
+2019-02-12 09:45:55  [ main:316 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1888ff2c]
+2019-02-12 09:45:55  [ main:318 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ff8b8f: defining beans [customerDAO,dataSource]; root of factory hierarchy
+2019-02-12 09:45:55  [ main:319 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerDAO'
+2019-02-12 09:45:55  [ main:321 ] - [ DEBUG ]  Creating instance of bean 'customerDAO'
+2019-02-12 09:45:55  [ main:339 ] - [ DEBUG ]  Eagerly caching bean 'customerDAO' to allow for resolving potential circular references
+2019-02-12 09:45:55  [ main:341 ] - [ DEBUG ]  Creating shared instance of singleton bean 'dataSource'
+2019-02-12 09:45:55  [ main:341 ] - [ DEBUG ]  Creating instance of bean 'dataSource'
+2019-02-12 09:45:55  [ main:342 ] - [ DEBUG ]  Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2019-02-12 09:45:55  [ main:366 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-02-12 09:45:55  [ main:366 ] - [ DEBUG ]  Finished creating instance of bean 'dataSource'
+2019-02-12 09:45:55  [ main:370 ] - [ DEBUG ]  Finished creating instance of bean 'customerDAO'
+2019-02-12 09:45:55  [ main:370 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2019-02-12 09:45:55  [ main:371 ] - [ DEBUG ]  Returning cached instance of singleton bean 'customerDAO'
+2019-02-12 09:45:55  [ main:388 ] - [ DEBUG ]  Executing prepared SQL update
+2019-02-12 09:45:55  [ main:389 ] - [ DEBUG ]  Executing prepared SQL statement [INSERT INTO CUSTOMER (CUST_ID, NAME, AGE) VALUES (?, ?, ?)]
+2019-02-12 09:45:55  [ main:393 ] - [ DEBUG ]  Fetching JDBC Connection from DataSource
+2019-02-12 09:45:55  [ main:393 ] - [ DEBUG ]  Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/spring]
+2019-02-12 09:45:56  [ main:793 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
+2019-02-12 09:45:56  [ main:801 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:56  [ main:802 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:56  [ main:802 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:56  [ main:802 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:56  [ main:802 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:56  [ main:802 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:56  [ main:802 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:56  [ main:803 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:56  [ main:803 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 09:45:56  [ main:804 ] - [ INFO ]  Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-02-12 09:45:56  [ main:805 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 09:45:56  [ main:809 ] - [ DEBUG ]  Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
+2019-02-12 09:45:56  [ main:823 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 09:45:56  [ main:842 ] - [ DEBUG ]  Creating shared instance of singleton bean 'DB2'
+2019-02-12 09:45:56  [ main:842 ] - [ DEBUG ]  Creating instance of bean 'DB2'
+2019-02-12 09:45:56  [ main:842 ] - [ DEBUG ]  Eagerly caching bean 'DB2' to allow for resolving potential circular references
+2019-02-12 09:45:56  [ main:855 ] - [ DEBUG ]  Finished creating instance of bean 'DB2'
+2019-02-12 09:45:56  [ main:855 ] - [ DEBUG ]  Creating shared instance of singleton bean 'Derby'
+2019-02-12 09:45:56  [ main:856 ] - [ DEBUG ]  Creating instance of bean 'Derby'
+2019-02-12 09:45:56  [ main:856 ] - [ DEBUG ]  Eagerly caching bean 'Derby' to allow for resolving potential circular references
+2019-02-12 09:45:56  [ main:857 ] - [ DEBUG ]  Finished creating instance of bean 'Derby'
+2019-02-12 09:45:56  [ main:857 ] - [ DEBUG ]  Creating shared instance of singleton bean 'H2'
+2019-02-12 09:45:56  [ main:857 ] - [ DEBUG ]  Creating instance of bean 'H2'
+2019-02-12 09:45:56  [ main:858 ] - [ DEBUG ]  Eagerly caching bean 'H2' to allow for resolving potential circular references
+2019-02-12 09:45:56  [ main:858 ] - [ DEBUG ]  Finished creating instance of bean 'H2'
+2019-02-12 09:45:56  [ main:858 ] - [ DEBUG ]  Creating shared instance of singleton bean 'HSQL'
+2019-02-12 09:45:56  [ main:859 ] - [ DEBUG ]  Creating instance of bean 'HSQL'
+2019-02-12 09:45:56  [ main:859 ] - [ DEBUG ]  Eagerly caching bean 'HSQL' to allow for resolving potential circular references
+2019-02-12 09:45:56  [ main:859 ] - [ DEBUG ]  Finished creating instance of bean 'HSQL'
+2019-02-12 09:45:56  [ main:859 ] - [ DEBUG ]  Creating shared instance of singleton bean 'Informix'
+2019-02-12 09:45:56  [ main:860 ] - [ DEBUG ]  Creating instance of bean 'Informix'
+2019-02-12 09:45:56  [ main:860 ] - [ DEBUG ]  Eagerly caching bean 'Informix' to allow for resolving potential circular references
+2019-02-12 09:45:56  [ main:860 ] - [ DEBUG ]  Finished creating instance of bean 'Informix'
+2019-02-12 09:45:56  [ main:861 ] - [ DEBUG ]  Creating shared instance of singleton bean 'MS-SQL'
+2019-02-12 09:45:56  [ main:861 ] - [ DEBUG ]  Creating instance of bean 'MS-SQL'
+2019-02-12 09:45:56  [ main:861 ] - [ DEBUG ]  Eagerly caching bean 'MS-SQL' to allow for resolving potential circular references
+2019-02-12 09:45:56  [ main:861 ] - [ DEBUG ]  Finished creating instance of bean 'MS-SQL'
+2019-02-12 09:45:56  [ main:862 ] - [ DEBUG ]  Creating shared instance of singleton bean 'MySQL'
+2019-02-12 09:45:56  [ main:862 ] - [ DEBUG ]  Creating instance of bean 'MySQL'
+2019-02-12 09:45:56  [ main:863 ] - [ DEBUG ]  Eagerly caching bean 'MySQL' to allow for resolving potential circular references
+2019-02-12 09:45:56  [ main:863 ] - [ DEBUG ]  Finished creating instance of bean 'MySQL'
+2019-02-12 09:45:56  [ main:863 ] - [ DEBUG ]  Creating shared instance of singleton bean 'Oracle'
+2019-02-12 09:45:56  [ main:864 ] - [ DEBUG ]  Creating instance of bean 'Oracle'
+2019-02-12 09:45:56  [ main:864 ] - [ DEBUG ]  Eagerly caching bean 'Oracle' to allow for resolving potential circular references
+2019-02-12 09:45:56  [ main:864 ] - [ DEBUG ]  Finished creating instance of bean 'Oracle'
+2019-02-12 09:45:56  [ main:865 ] - [ DEBUG ]  Creating shared instance of singleton bean 'PostgreSQL'
+2019-02-12 09:45:56  [ main:865 ] - [ DEBUG ]  Creating instance of bean 'PostgreSQL'
+2019-02-12 09:45:56  [ main:865 ] - [ DEBUG ]  Eagerly caching bean 'PostgreSQL' to allow for resolving potential circular references
+2019-02-12 09:45:56  [ main:866 ] - [ DEBUG ]  Finished creating instance of bean 'PostgreSQL'
+2019-02-12 09:45:56  [ main:866 ] - [ DEBUG ]  Creating shared instance of singleton bean 'Sybase'
+2019-02-12 09:45:56  [ main:866 ] - [ DEBUG ]  Creating instance of bean 'Sybase'
+2019-02-12 09:45:56  [ main:866 ] - [ DEBUG ]  Eagerly caching bean 'Sybase' to allow for resolving potential circular references
+2019-02-12 09:45:56  [ main:868 ] - [ DEBUG ]  Finished creating instance of bean 'Sybase'
+2019-02-12 09:45:56  [ main:868 ] - [ INFO ]  SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2019-02-12 09:45:56  [ main:868 ] - [ DEBUG ]  Looking up default SQLErrorCodes for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@49fc609f]
+2019-02-12 09:45:56  [ main:869 ] - [ DEBUG ]  Fetching JDBC Connection from DataSource
+2019-02-12 09:45:56  [ main:870 ] - [ DEBUG ]  Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/spring]
+2019-02-12 09:45:56  [ main:875 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
+2019-02-12 09:45:56  [ main:875 ] - [ DEBUG ]  Database product name cached for DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@49fc609f]: name is 'MySQL'
+2019-02-12 09:45:56  [ main:875 ] - [ DEBUG ]  SQL error codes for 'MySQL' found
+2019-02-12 09:45:56  [ main:876 ] - [ DEBUG ]  Translating SQLException with SQL state '23000', error code '1062', message [Duplicate entry '1' for key 'PRIMARY']; SQL was [INSERT INTO CUSTOMER (CUST_ID, NAME, AGE) VALUES (?, ?, ?)] for task [PreparedStatementCallback]
+2019-02-12 10:04:15  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 10:04:15 CST 2019]; root of context hierarchy
+2019-02-12 10:04:15  [ main:36 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:04:15  [ main:39 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:04:15  [ main:39 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:04:15  [ main:39 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:04:15  [ main:39 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:04:15  [ main:40 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:04:15  [ main:40 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:04:15  [ main:46 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:04:15  [ main:49 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:04:15  [ main:79 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-02-12 10:04:15  [ main:112 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 10:04:15  [ main:160 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2019-02-12 10:04:15  [ main:164 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+2019-02-12 10:04:15  [ main:167 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 10:04:15  [ main:235 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 10:04:15  [ main:263 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-customer.xml]
+2019-02-12 10:04:15  [ main:266 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 10:04:15  [ main:269 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 10:04:15  [ main:304 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 10:04:15  [ main:320 ] - [ DEBUG ]  Imported 2 bean definitions from relative location [spring-customer.xml]
+2019-02-12 10:04:15  [ main:321 ] - [ DEBUG ]  Loaded 3 bean definitions from location pattern [applicationContext.xml]
+2019-02-12 10:04:15  [ main:322 ] - [ INFO ]  Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ff8b8f
+2019-02-12 10:04:15  [ main:322 ] - [ DEBUG ]  3 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 10:04:15 CST 2019]; root of context hierarchy
+2019-02-12 10:04:15  [ main:342 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@546a03af]
+2019-02-12 10:04:15  [ main:345 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1888ff2c]
+2019-02-12 10:04:15  [ main:346 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ff8b8f: defining beans [customerDAO,dataSource,customerService]; root of factory hierarchy
+2019-02-12 10:04:15  [ main:348 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerDAO'
+2019-02-12 10:04:15  [ main:350 ] - [ DEBUG ]  Creating instance of bean 'customerDAO'
+2019-02-12 10:04:15  [ main:372 ] - [ DEBUG ]  Eagerly caching bean 'customerDAO' to allow for resolving potential circular references
+2019-02-12 10:04:15  [ main:374 ] - [ DEBUG ]  Creating shared instance of singleton bean 'dataSource'
+2019-02-12 10:04:15  [ main:374 ] - [ DEBUG ]  Creating instance of bean 'dataSource'
+2019-02-12 10:04:15  [ main:375 ] - [ DEBUG ]  Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2019-02-12 10:04:15  [ main:404 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-02-12 10:04:15  [ main:405 ] - [ DEBUG ]  Finished creating instance of bean 'dataSource'
+2019-02-12 10:04:15  [ main:410 ] - [ DEBUG ]  Finished creating instance of bean 'customerDAO'
+2019-02-12 10:04:15  [ main:410 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2019-02-12 10:04:15  [ main:410 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerService'
+2019-02-12 10:04:15  [ main:410 ] - [ DEBUG ]  Creating instance of bean 'customerService'
+2019-02-12 10:04:15  [ main:410 ] - [ DEBUG ]  Eagerly caching bean 'customerService' to allow for resolving potential circular references
+2019-02-12 10:04:15  [ main:413 ] - [ DEBUG ]  Finished creating instance of bean 'customerService'
+2019-02-12 10:04:15  [ main:413 ] - [ DEBUG ]  Returning cached instance of singleton bean 'customerService'
+2019-02-12 10:13:30  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 10:13:30 CST 2019]; root of context hierarchy
+2019-02-12 10:13:30  [ main:39 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:13:30  [ main:44 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:13:30  [ main:44 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:13:30  [ main:45 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:13:30  [ main:45 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:13:30  [ main:45 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:13:30  [ main:45 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:13:30  [ main:51 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:13:30  [ main:52 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:13:30  [ main:90 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-02-12 10:13:30  [ main:119 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 10:13:30  [ main:172 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2019-02-12 10:13:30  [ main:179 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+2019-02-12 10:13:30  [ main:182 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 10:13:30  [ main:269 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 10:13:30  [ main:306 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-customer.xml]
+2019-02-12 10:13:30  [ main:319 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 10:13:30  [ main:324 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 10:13:30  [ main:369 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 10:13:30  [ main:388 ] - [ DEBUG ]  Imported 2 bean definitions from relative location [spring-customer.xml]
+2019-02-12 10:13:30  [ main:400 ] - [ DEBUG ]  Loaded 5 bean definitions from location pattern [applicationContext.xml]
+2019-02-12 10:13:30  [ main:400 ] - [ INFO ]  Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@224aed64
+2019-02-12 10:13:30  [ main:401 ] - [ DEBUG ]  5 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 10:13:30 CST 2019]; root of context hierarchy
+2019-02-12 10:13:31  [ main:486 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@4ec6a292]
+2019-02-12 10:13:31  [ main:492 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@11531931]
+2019-02-12 10:13:31  [ main:500 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@224aed64: defining beans [customerDAO,dataSource,customerService,hijackBeforeMethodBean,customerServiceProxy]; root of factory hierarchy
+2019-02-12 10:13:31  [ main:501 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerDAO'
+2019-02-12 10:13:31  [ main:503 ] - [ DEBUG ]  Creating instance of bean 'customerDAO'
+2019-02-12 10:13:31  [ main:533 ] - [ DEBUG ]  Eagerly caching bean 'customerDAO' to allow for resolving potential circular references
+2019-02-12 10:13:31  [ main:536 ] - [ DEBUG ]  Creating shared instance of singleton bean 'dataSource'
+2019-02-12 10:13:31  [ main:537 ] - [ DEBUG ]  Creating instance of bean 'dataSource'
+2019-02-12 10:13:31  [ main:539 ] - [ DEBUG ]  Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2019-02-12 10:13:31  [ main:567 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-02-12 10:13:31  [ main:567 ] - [ DEBUG ]  Finished creating instance of bean 'dataSource'
+2019-02-12 10:13:31  [ main:585 ] - [ DEBUG ]  Finished creating instance of bean 'customerDAO'
+2019-02-12 10:13:31  [ main:585 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2019-02-12 10:13:31  [ main:586 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerService'
+2019-02-12 10:13:31  [ main:586 ] - [ DEBUG ]  Creating instance of bean 'customerService'
+2019-02-12 10:13:31  [ main:586 ] - [ DEBUG ]  Eagerly caching bean 'customerService' to allow for resolving potential circular references
+2019-02-12 10:13:31  [ main:590 ] - [ DEBUG ]  Finished creating instance of bean 'customerService'
+2019-02-12 10:13:31  [ main:591 ] - [ DEBUG ]  Creating shared instance of singleton bean 'hijackBeforeMethodBean'
+2019-02-12 10:13:31  [ main:591 ] - [ DEBUG ]  Creating instance of bean 'hijackBeforeMethodBean'
+2019-02-12 10:13:31  [ main:593 ] - [ DEBUG ]  Eagerly caching bean 'hijackBeforeMethodBean' to allow for resolving potential circular references
+2019-02-12 10:13:31  [ main:594 ] - [ DEBUG ]  Finished creating instance of bean 'hijackBeforeMethodBean'
+2019-02-12 10:13:31  [ main:594 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerServiceProxy'
+2019-02-12 10:13:31  [ main:594 ] - [ DEBUG ]  Creating instance of bean 'customerServiceProxy'
+2019-02-12 10:13:31  [ main:600 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:13:31  [ main:641 ] - [ DEBUG ]  Eagerly caching bean 'customerServiceProxy' to allow for resolving potential circular references
+2019-02-12 10:13:31  [ main:641 ] - [ DEBUG ]  Returning cached instance of singleton bean 'customerService'
+2019-02-12 10:13:31  [ main:671 ] - [ DEBUG ]  Finished creating instance of bean 'customerServiceProxy'
+2019-02-12 10:13:31  [ main:675 ] - [ DEBUG ]  Returning cached instance of singleton bean 'customerService'
+2019-02-12 10:14:26  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 10:14:26 CST 2019]; root of context hierarchy
+2019-02-12 10:14:26  [ main:35 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:14:26  [ main:38 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:14:26  [ main:38 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:14:26  [ main:39 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:14:26  [ main:39 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:14:26  [ main:39 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:14:26  [ main:39 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:14:26  [ main:45 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:14:26  [ main:46 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:14:26  [ main:79 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-02-12 10:14:26  [ main:106 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 10:14:26  [ main:154 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2019-02-12 10:14:26  [ main:157 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+2019-02-12 10:14:26  [ main:158 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 10:14:26  [ main:229 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 10:14:26  [ main:248 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-customer.xml]
+2019-02-12 10:14:26  [ main:251 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 10:14:26  [ main:254 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 10:14:26  [ main:289 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 10:14:26  [ main:303 ] - [ DEBUG ]  Imported 2 bean definitions from relative location [spring-customer.xml]
+2019-02-12 10:14:26  [ main:308 ] - [ DEBUG ]  Loaded 5 bean definitions from location pattern [applicationContext.xml]
+2019-02-12 10:14:26  [ main:309 ] - [ INFO ]  Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@224aed64
+2019-02-12 10:14:26  [ main:309 ] - [ DEBUG ]  5 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 10:14:26 CST 2019]; root of context hierarchy
+2019-02-12 10:14:26  [ main:328 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@4ec6a292]
+2019-02-12 10:14:26  [ main:330 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@11531931]
+2019-02-12 10:14:26  [ main:332 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@224aed64: defining beans [customerDAO,dataSource,customerService,hijackBeforeMethodBean,customerServiceProxy]; root of factory hierarchy
+2019-02-12 10:14:26  [ main:334 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerDAO'
+2019-02-12 10:14:26  [ main:336 ] - [ DEBUG ]  Creating instance of bean 'customerDAO'
+2019-02-12 10:14:26  [ main:352 ] - [ DEBUG ]  Eagerly caching bean 'customerDAO' to allow for resolving potential circular references
+2019-02-12 10:14:26  [ main:353 ] - [ DEBUG ]  Creating shared instance of singleton bean 'dataSource'
+2019-02-12 10:14:26  [ main:353 ] - [ DEBUG ]  Creating instance of bean 'dataSource'
+2019-02-12 10:14:26  [ main:355 ] - [ DEBUG ]  Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2019-02-12 10:14:26  [ main:374 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-02-12 10:14:26  [ main:375 ] - [ DEBUG ]  Finished creating instance of bean 'dataSource'
+2019-02-12 10:14:26  [ main:378 ] - [ DEBUG ]  Finished creating instance of bean 'customerDAO'
+2019-02-12 10:14:26  [ main:378 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2019-02-12 10:14:26  [ main:379 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerService'
+2019-02-12 10:14:26  [ main:379 ] - [ DEBUG ]  Creating instance of bean 'customerService'
+2019-02-12 10:14:26  [ main:380 ] - [ DEBUG ]  Eagerly caching bean 'customerService' to allow for resolving potential circular references
+2019-02-12 10:14:26  [ main:382 ] - [ DEBUG ]  Finished creating instance of bean 'customerService'
+2019-02-12 10:14:26  [ main:382 ] - [ DEBUG ]  Creating shared instance of singleton bean 'hijackBeforeMethodBean'
+2019-02-12 10:14:26  [ main:383 ] - [ DEBUG ]  Creating instance of bean 'hijackBeforeMethodBean'
+2019-02-12 10:14:26  [ main:383 ] - [ DEBUG ]  Eagerly caching bean 'hijackBeforeMethodBean' to allow for resolving potential circular references
+2019-02-12 10:14:26  [ main:383 ] - [ DEBUG ]  Finished creating instance of bean 'hijackBeforeMethodBean'
+2019-02-12 10:14:26  [ main:384 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerServiceProxy'
+2019-02-12 10:14:26  [ main:384 ] - [ DEBUG ]  Creating instance of bean 'customerServiceProxy'
+2019-02-12 10:14:26  [ main:390 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:14:26  [ main:398 ] - [ DEBUG ]  Eagerly caching bean 'customerServiceProxy' to allow for resolving potential circular references
+2019-02-12 10:14:26  [ main:399 ] - [ DEBUG ]  Returning cached instance of singleton bean 'customerService'
+2019-02-12 10:14:26  [ main:427 ] - [ DEBUG ]  Finished creating instance of bean 'customerServiceProxy'
+2019-02-12 10:14:26  [ main:431 ] - [ DEBUG ]  Returning cached instance of singleton bean 'customerServiceProxy'
+2019-02-12 10:14:26  [ main:431 ] - [ DEBUG ]  Returning cached instance of singleton bean 'hijackBeforeMethodBean'
+2019-02-12 10:14:26  [ main:436 ] - [ DEBUG ]  Advice has changed; recaching singleton instance
+2019-02-12 10:17:01  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 10:17:01 CST 2019]; root of context hierarchy
+2019-02-12 10:17:01  [ main:39 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:17:01  [ main:42 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:17:01  [ main:42 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:17:01  [ main:42 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:17:01  [ main:43 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:17:01  [ main:43 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:17:01  [ main:43 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:17:01  [ main:48 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:17:01  [ main:49 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:17:01  [ main:90 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-02-12 10:17:01  [ main:116 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 10:17:01  [ main:156 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2019-02-12 10:17:01  [ main:160 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+2019-02-12 10:17:01  [ main:162 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 10:17:01  [ main:219 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 10:17:01  [ main:277 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-customer.xml]
+2019-02-12 10:17:01  [ main:279 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 10:17:01  [ main:282 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 10:17:01  [ main:327 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 10:17:01  [ main:341 ] - [ DEBUG ]  Imported 2 bean definitions from relative location [spring-customer.xml]
+2019-02-12 10:17:01  [ main:344 ] - [ DEBUG ]  Loaded 5 bean definitions from location pattern [applicationContext.xml]
+2019-02-12 10:17:01  [ main:345 ] - [ INFO ]  Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@224aed64
+2019-02-12 10:17:01  [ main:346 ] - [ DEBUG ]  5 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5b80350b]; startup date [Tue Feb 12 10:17:01 CST 2019]; root of context hierarchy
+2019-02-12 10:17:01  [ main:392 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@4ec6a292]
+2019-02-12 10:17:01  [ main:394 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@11531931]
+2019-02-12 10:17:01  [ main:395 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@224aed64: defining beans [customerDAO,dataSource,customerService,hijackBeforeMethodBean,customerServiceProxy]; root of factory hierarchy
+2019-02-12 10:17:01  [ main:396 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerDAO'
+2019-02-12 10:17:01  [ main:397 ] - [ DEBUG ]  Creating instance of bean 'customerDAO'
+2019-02-12 10:17:01  [ main:414 ] - [ DEBUG ]  Eagerly caching bean 'customerDAO' to allow for resolving potential circular references
+2019-02-12 10:17:01  [ main:416 ] - [ DEBUG ]  Creating shared instance of singleton bean 'dataSource'
+2019-02-12 10:17:01  [ main:416 ] - [ DEBUG ]  Creating instance of bean 'dataSource'
+2019-02-12 10:17:01  [ main:417 ] - [ DEBUG ]  Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2019-02-12 10:17:01  [ main:437 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-02-12 10:17:01  [ main:438 ] - [ DEBUG ]  Finished creating instance of bean 'dataSource'
+2019-02-12 10:17:01  [ main:443 ] - [ DEBUG ]  Finished creating instance of bean 'customerDAO'
+2019-02-12 10:17:01  [ main:443 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2019-02-12 10:17:01  [ main:444 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerService'
+2019-02-12 10:17:01  [ main:444 ] - [ DEBUG ]  Creating instance of bean 'customerService'
+2019-02-12 10:17:01  [ main:445 ] - [ DEBUG ]  Eagerly caching bean 'customerService' to allow for resolving potential circular references
+2019-02-12 10:17:01  [ main:448 ] - [ DEBUG ]  Finished creating instance of bean 'customerService'
+2019-02-12 10:17:01  [ main:448 ] - [ DEBUG ]  Creating shared instance of singleton bean 'hijackBeforeMethodBean'
+2019-02-12 10:17:01  [ main:449 ] - [ DEBUG ]  Creating instance of bean 'hijackBeforeMethodBean'
+2019-02-12 10:17:01  [ main:449 ] - [ DEBUG ]  Eagerly caching bean 'hijackBeforeMethodBean' to allow for resolving potential circular references
+2019-02-12 10:17:01  [ main:449 ] - [ DEBUG ]  Finished creating instance of bean 'hijackBeforeMethodBean'
+2019-02-12 10:17:01  [ main:451 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerServiceProxy'
+2019-02-12 10:17:01  [ main:452 ] - [ DEBUG ]  Creating instance of bean 'customerServiceProxy'
+2019-02-12 10:17:01  [ main:459 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:17:01  [ main:474 ] - [ DEBUG ]  Eagerly caching bean 'customerServiceProxy' to allow for resolving potential circular references
+2019-02-12 10:17:01  [ main:474 ] - [ DEBUG ]  Returning cached instance of singleton bean 'customerService'
+2019-02-12 10:17:01  [ main:574 ] - [ DEBUG ]  Finished creating instance of bean 'customerServiceProxy'
+2019-02-12 10:17:01  [ main:579 ] - [ DEBUG ]  Returning cached instance of singleton bean 'customerServiceProxy'
+2019-02-12 10:17:01  [ main:580 ] - [ DEBUG ]  Returning cached instance of singleton bean 'hijackBeforeMethodBean'
+2019-02-12 10:17:01  [ main:585 ] - [ DEBUG ]  Advice has changed; recaching singleton instance
+2019-02-12 10:19:25  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2957fcb0: display name [org.springframework.context.support.ClassPathXmlApplicationContext@2957fcb0]; startup date [Tue Feb 12 10:19:25 CST 2019]; root of context hierarchy
+2019-02-12 10:19:25  [ main:32 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:19:25  [ main:36 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:19:25  [ main:36 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:19:25  [ main:36 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:19:25  [ main:36 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:19:25  [ main:36 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:19:25  [ main:37 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:19:25  [ main:41 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:19:25  [ main:43 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:19:25  [ main:90 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-02-12 10:19:25  [ main:123 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 10:19:25  [ main:174 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2019-02-12 10:19:25  [ main:181 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd}
+2019-02-12 10:19:25  [ main:182 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 10:19:25  [ main:254 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 10:19:25  [ main:276 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-customer.xml]
+2019-02-12 10:19:25  [ main:279 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-02-12 10:19:25  [ main:281 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-2.5.xsd
+2019-02-12 10:19:25  [ main:316 ] - [ DEBUG ]  Loading bean definitions
+2019-02-12 10:19:25  [ main:339 ] - [ DEBUG ]  Imported 2 bean definitions from relative location [spring-customer.xml]
+2019-02-12 10:19:25  [ main:363 ] - [ DEBUG ]  Loaded 5 bean definitions from location pattern [applicationContext.xml]
+2019-02-12 10:19:25  [ main:364 ] - [ INFO ]  Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@2957fcb0]: org.springframework.beans.factory.support.DefaultListableBeanFactory@282ba1e
+2019-02-12 10:19:25  [ main:365 ] - [ DEBUG ]  5 beans defined in org.springframework.context.support.ClassPathXmlApplicationContext@2957fcb0: display name [org.springframework.context.support.ClassPathXmlApplicationContext@2957fcb0]; startup date [Tue Feb 12 10:19:25 CST 2019]; root of context hierarchy
+2019-02-12 10:19:25  [ main:401 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@4563e9ab]
+2019-02-12 10:19:25  [ main:406 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@6debcae2]
+2019-02-12 10:19:25  [ main:414 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@282ba1e: defining beans [customerDAO,dataSource,customerService,hijackBeforeMethodBean,customerServiceProxy]; root of factory hierarchy
+2019-02-12 10:19:25  [ main:415 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerDAO'
+2019-02-12 10:19:25  [ main:417 ] - [ DEBUG ]  Creating instance of bean 'customerDAO'
+2019-02-12 10:19:25  [ main:438 ] - [ DEBUG ]  Eagerly caching bean 'customerDAO' to allow for resolving potential circular references
+2019-02-12 10:19:25  [ main:439 ] - [ DEBUG ]  Creating shared instance of singleton bean 'dataSource'
+2019-02-12 10:19:25  [ main:440 ] - [ DEBUG ]  Creating instance of bean 'dataSource'
+2019-02-12 10:19:25  [ main:441 ] - [ DEBUG ]  Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2019-02-12 10:19:25  [ main:463 ] - [ INFO ]  Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-02-12 10:19:25  [ main:464 ] - [ DEBUG ]  Finished creating instance of bean 'dataSource'
+2019-02-12 10:19:25  [ main:466 ] - [ DEBUG ]  Finished creating instance of bean 'customerDAO'
+2019-02-12 10:19:25  [ main:467 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2019-02-12 10:19:25  [ main:467 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerService'
+2019-02-12 10:19:25  [ main:467 ] - [ DEBUG ]  Creating instance of bean 'customerService'
+2019-02-12 10:19:25  [ main:469 ] - [ DEBUG ]  Eagerly caching bean 'customerService' to allow for resolving potential circular references
+2019-02-12 10:19:25  [ main:475 ] - [ DEBUG ]  Finished creating instance of bean 'customerService'
+2019-02-12 10:19:25  [ main:475 ] - [ DEBUG ]  Creating shared instance of singleton bean 'hijackBeforeMethodBean'
+2019-02-12 10:19:25  [ main:475 ] - [ DEBUG ]  Creating instance of bean 'hijackBeforeMethodBean'
+2019-02-12 10:19:25  [ main:476 ] - [ DEBUG ]  Eagerly caching bean 'hijackBeforeMethodBean' to allow for resolving potential circular references
+2019-02-12 10:19:25  [ main:476 ] - [ DEBUG ]  Finished creating instance of bean 'hijackBeforeMethodBean'
+2019-02-12 10:19:25  [ main:476 ] - [ DEBUG ]  Creating shared instance of singleton bean 'customerServiceProxy'
+2019-02-12 10:19:25  [ main:476 ] - [ DEBUG ]  Creating instance of bean 'customerServiceProxy'
+2019-02-12 10:19:25  [ main:486 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:19:25  [ main:498 ] - [ DEBUG ]  Eagerly caching bean 'customerServiceProxy' to allow for resolving potential circular references
+2019-02-12 10:19:25  [ main:498 ] - [ DEBUG ]  Returning cached instance of singleton bean 'customerService'
+2019-02-12 10:19:25  [ main:520 ] - [ DEBUG ]  Finished creating instance of bean 'customerServiceProxy'
+2019-02-12 10:19:25  [ main:521 ] - [ DEBUG ]  Returning cached instance of singleton bean 'customerServiceProxy'
+2019-02-12 10:19:25  [ main:521 ] - [ DEBUG ]  Returning cached instance of singleton bean 'hijackBeforeMethodBean'
+2019-02-12 10:19:25  [ main:529 ] - [ DEBUG ]  Advice has changed; recaching singleton instance
+2019-02-12 10:19:25  [ main:538 ] - [ DEBUG ]  Creating CGLIB2 proxy: target source is SingletonTargetSource for target object [com.neusoft.spring.aop.CustomerService@457e2f02]
+2019-02-12 10:19:26  [ main:658 ] - [ DEBUG ]  Falling back to plain synchronized [java.util.HashMap] for concurrent map
+2019-02-12 10:19:26  [ main:698 ] - [ DEBUG ]  Unable to apply any optimisations to advised method: public void com.neusoft.spring.aop.CustomerService.setName(java.lang.String)
+2019-02-12 10:19:26  [ main:698 ] - [ DEBUG ]  Unable to apply any optimisations to advised method: public void com.neusoft.spring.aop.CustomerService.printName()
+2019-02-12 10:19:26  [ main:698 ] - [ DEBUG ]  Unable to apply any optimisations to advised method: public void com.neusoft.spring.aop.CustomerService.printURL()
+2019-02-12 10:19:26  [ main:699 ] - [ DEBUG ]  Unable to apply any optimisations to advised method: public void com.neusoft.spring.aop.CustomerService.printThrowException()
+2019-02-12 10:19:26  [ main:699 ] - [ DEBUG ]  Unable to apply any optimisations to advised method: public void com.neusoft.spring.aop.CustomerService.setUrl(java.lang.String)
+2019-02-12 10:19:26  [ main:699 ] - [ DEBUG ]  Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+2019-02-12 10:19:26  [ main:699 ] - [ DEBUG ]  Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+2019-02-12 10:19:26  [ main:699 ] - [ DEBUG ]  Found 'hashCode' method: public native int java.lang.Object.hashCode()
+2019-02-12 10:19:26  [ main:699 ] - [ DEBUG ]  Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+2019-02-12 10:19:26  [ main:700 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+2019-02-12 10:19:26  [ main:700 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+2019-02-12 10:19:26  [ main:700 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+2019-02-12 10:19:26  [ main:700 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+2019-02-12 10:19:26  [ main:701 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+2019-02-12 10:19:26  [ main:701 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+2019-02-12 10:19:26  [ main:703 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+2019-02-12 10:19:26  [ main:703 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+2019-02-12 10:19:26  [ main:703 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+2019-02-12 10:19:26  [ main:704 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+2019-02-12 10:19:26  [ main:704 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+2019-02-12 10:19:26  [ main:704 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+2019-02-12 10:19:26  [ main:704 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+2019-02-12 10:19:26  [ main:705 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+2019-02-12 10:19:26  [ main:705 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+2019-02-12 10:19:26  [ main:705 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+2019-02-12 10:19:26  [ main:705 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+2019-02-12 10:19:26  [ main:705 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+2019-02-12 10:19:26  [ main:705 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+2019-02-12 10:19:26  [ main:706 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+2019-02-12 10:19:26  [ main:706 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+2019-02-12 10:19:26  [ main:706 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+2019-02-12 10:19:26  [ main:706 ] - [ DEBUG ]  Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()

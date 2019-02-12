@@ -4,5 +4,20 @@
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
     <import resource="spring-customer.xml" />
+    <bean id="customerService" class="com.neusoft.spring.aop.CustomerService">
+        <property name="name" value="Neusoft Si Sansan" />
+        <property name="url" value="http://www.neusoft.com" />
+    </bean>
+    <bean id="hijackBeforeMethodBean" class="com.neusoft.spring.aop.HijackBeforeMethod"/>
+    <bean id="customerServiceProxy"
+          class="org.springframework.aop.framework.ProxyFactoryBean">
 
+        <property name="target" ref="customerService" />
+
+        <property name="interceptorNames">
+            <list>
+                <value>hijackBeforeMethodBean</value>
+            </list>
+        </property>
+    </bean>
 </beans>
